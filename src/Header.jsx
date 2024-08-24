@@ -26,7 +26,7 @@ const Header = () => {
             </Link>
           
           </div>
-          <h1 className="text-5xl font-bold font-caveat bg-gradient-to-r from-[#7C2727] to-[#BCAAAA] bg-clip-text text-transparent">
+          <h1 className="text-5xl font-ecbold font-caveat bg-gradient-to-b from-[#ffffff] to-[#3EB0C3] bg-clip-text text-transparent">
             Settle In
           </h1>
           {/* Use Link for navigation instead of <a> */}
