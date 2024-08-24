@@ -1,13 +1,19 @@
 import React from "react";
+import CitySelector from "./CitySelector";
+
 function Home() {
   return (
-    <div className="bg-[url('/bgi.png')] bg-cover bg-fixed h-screen w-screen ">
-      <div className="h-full w-full flex flex-row justify-between">
-        <main className="flex-grow flex justify-center items-center pt-20">
-          <h1 >settleIN</h1>
-        </main>
-      </div>
+    <div className="bg-fixed bg-cover"
+    style={{backgroundImage: "url('/bgi.png')"}}>
+            <div className="h-screen w-screen flex flex-row justify-between">
+      <main className="flex-grow  flex justify-center items-center pt-20">
+        
+        <CitySelector />
+        {/* <CatchphraseRotator /> */}
+      </main>
     </div>
+    </div>
+
   );
 }
 
