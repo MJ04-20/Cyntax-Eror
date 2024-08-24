@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="w-full z-50 min-h-max backdrop-blur-md bg-white/30">
+      <footer className="w-full z-50 min-h-max bg-gradient-to-b from-[#94dfeb] via-[#467C85] to-[#77d5e7]">
         <div className="flex flex-col justify-between text-red-500 content-center">
           <div className="flex space-x-5">
             <p className="text-3xl font-bold  bg-gradient-to-b from-[#ffffff] to-[#3EB0C3] bg-clip-text text-transparent" style={{fontFamily: "'Qwitcher Grypen', cursive"}}>CYNTAX EROR</p>
