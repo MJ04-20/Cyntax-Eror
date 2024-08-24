@@ -1,22 +1,18 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+
+import viteLogo from '/vite.svg'
 import './App.css'
 import React from 'react';
 
-function App() {
+const App = () => {
   return (
-   
-      <div className="bg-scroll bg-cover h-screen w-screen"
-           style={{ backgroundImage: "url('/bgi.png')" }}>
-        <div className="flex flex-row justify-between h-full w-full">
-          <main className="flex-grow flex justify-center items-center pt-20">
-            <p>SETTLE IN</p>
-            {/* <CatchphraseRotator /> */}
-          </main>
-        </div>
-      </div>
+    <>
+       
   
-  )
-}
+     
+    </>
+  );
+};
 
-export default App
-
-
+export default App;
