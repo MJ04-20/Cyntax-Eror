@@ -26,7 +26,11 @@ const Header = () => {
             </Link>
           
           </div>
+<<<<<<< HEAD
           <h1 className="text-5xl font-ecbold font-caveat bg-gradient-to-b from-[#ffffff] to-[#3EB0C3] bg-clip-text text-transparent">
+=======
+          <h1 className="text-5xl font-bold  bg-gradient-to-b from-[#ffffff] to-[#3EB0C3] bg-clip-text text-transparent" style={{fontFamily: "'Qwitcher Grypen', cursive"}}>
+>>>>>>> 8f648ff2a10b01ac364512ea12f74b8f4fc7871e
             Settle In
           </h1>
           {/* Use Link for navigation instead of <a> */}
