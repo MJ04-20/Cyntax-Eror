@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-
+import Categories from "./Categories.jsx";
 import "./index.css";
 
 import Home from "./Home.jsx";
@@ -18,9 +18,9 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route path="" element={<Home />} />
       <Route path="login" element={<Login />} />
-      {/* <Route path="categories" element={<Categories />}>
+      <Route path="categories" element={<Categories />}>
       
-      </Route> */}
+      </Route>
     </Route>
   )
 );
